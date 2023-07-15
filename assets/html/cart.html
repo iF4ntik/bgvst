@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Корзина</title>
+	<link rel="stylesheet" href="src/css/bootstrap.css">
+	<link rel="stylesheet" href="src/css/cart.css">
+	<script src="src/js/main.js" defer></script>
+	<script src="src/js/cart.js" defer></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body class="bodySett">
+		<main>
+			<div class="container">
+	            <div class="header">
+				    <div class="menuLeft">
+					  <ul>
+						<a href="index.html">Главная</a>
+						<a href="#">О нас</a>
+						<a href="shop.html">Меню</a>
+					  </ul>
+				    </div>
+				    <button class="burgerBtn" id="burger">
+				    	<span></span>
+				    	<span></span>
+				    	<span></span>
+				    </button>
+				    <div class="logo">
+				    	<img src="src/img/home/logo.png" alt="logo">
+				    </div>
+				    <div class="menuRight">
+				    	<ul>
+				    		<a href="#">Оплата и доставка</a>
+				    		<a href="#">Контакты</a>
+				    	</ul>
+				    </div>
+				    <div class="icons">
+				    	<object type="image/svg+xml" data="src/img/home/search.svg">
+				    		<img src="src/img/home/search.png">
+				    	</object>
+				    	<a href="cart.html">
+				    	<object type="image/svg+xml" data="src/img/home/cart.svg">
+				    		<img src="src/img/home/cart.png">
+				    	</object>
+				    	</a>
+				    </div>
+	            </div>
+	            <div class="col-xl-12">
+	            	<div class="cartList itemList" id="cartList">
+	            		<div class="captions">
+	            			<h1>Товар</h1>
+	            			<h1>Количество</h1>
+	            			<h1>Цена</h1>
+	            		</div>
+	            		<div class="itemList">
+	            		Сюда вставляются товары
+	            	</div>
+	            	</div>
+	            	<div class="total">
+	            		<h1>Итого: 270₽</h1>
+	            		<button>Оформить заказ</button>
+	            		<a href="shop.html">Продолжить покупки</a>
+	            	</div>
+	            </div>
+	        </div>
+	    </main>
+	    <section class="footer">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-xl-2 offset-xl-1 col-lg-12 offset-lg-0">
+	    				<div class="footerLogo">
+	    					<img src="src/img/footer/logo.png" alt="logo">
+	    				</div>
+	    			</div>
+	    			<div class="col-xl-4 offset-xl-1 col-lg-6 offset-lg-0">
+	    				<div class="footerForm">
+	    					<form action="#">
+	    						<label class="labelFooter" for="#">Получать новости первым</label>
+	    						<input class="inputFooter" type="text" placeholder="Ваш email адрес">
+	    						<button class="buttonFooter" type="submit">Подписаться</button>
+	    					</form>
+	    					<p>Мы не будем слать надоедливую рекламу*</p>
+	    				</div>
+	    			</div>
+	    			<div class="col-xl-2 offset-xl-1 col-lg-6 offset-lg-0">
+	    				<div class="footerHours">
+	    					<h1>Часы работы</h1>
+	    					<p>Понедельник - Пятница:</p>
+	    					<p>08:00 - 22:00</p>
+	    					<p>Суббота - Воскресенье:</p>
+	    					<p>9:00 - 22:30</p>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </section>
+</body>
+</html>

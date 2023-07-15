@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>baguettvest</title>
+	<link rel="stylesheet" href="src/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="src/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="src/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="src/css/style.css">
+	<script src="src/js/main.js" defer></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="src/js/parallax.min.js"></script>
+</head>
+<body class="bodySett">
+	<main>
+		<div class="container">
+            <div class="header">
+			    <div class="menuLeft">
+				  <ul>
+					<a href="index.html">Главная</a>
+					<a href="#">О нас</a>
+					<a href="shop.html">Меню</a>
+				  </ul>
+			    </div>
+			    <button class="burgerBtn" id="burger">
+			    	<span></span>
+			    	<span></span>
+			    	<span></span>
+			    </button>
+			    <div class="logo">
+			    	<img src="src/img/home/logo.png" alt="logo">
+			    </div>
+			    <div class="menuRight">
+			    	<ul>
+			    		<a href="#">Оплата и доставка</a>
+			    		<a href="#">Контакты</a>
+			    	</ul>
+			    </div>
+			    <div class="icons">
+			    	<object type="image/svg+xml" data="src/img/home/search.svg">
+			    		<img src="src/img/home/search.png">
+			    	</object>
+			    	<a href="cart.html">
+			    	<object type="image/svg+xml" data="src/img/home/cart.svg">
+			    		<img src="src/img/home/cart.png">
+			    	</object>
+			    	</a>
+			    </div>
+            </div>
+            <div class="row">
+            	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            		<div class="itemSlider">
+            			<div class="item">
+            				<div class="itemImg">
+            				<img src="src/img/home/donuts.png" alt="donuts">
+            				</div>
+            				<div class="itemBtn">
+            				<button>Добавить в корзину</button>
+            				</div>
+            			</div>
+            			<div class="item">
+            				<div class="itemImg">
+            				<img src="src/img/home/crsns.png" alt="crsns">
+            				</div>
+            				<div class="itemBtn">
+            				<button>Добавить в корзину</button>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+		</div>
+	</main>
+	<section class="showcase parallax-window" data-parallax="scroll" data-image-src="src/img/showcase/bg.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="showcaseHeader">
+					<h1>Добавь сладости в сегодняшний день</h1>
+				</div>
+				<div class="ear">
+					<img src="src/img/showcase/ear.svg" alt="ear">
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<div class="product">
+						<div class="productImg">
+							<img src="src/img/showcase/poppy.png" alt="poppy">
+							<button>Добавить в корзину</button>
+						</div>
+						<div class="decription">
+							<h2>Маковый кекс</h2>
+							<p>Сладкий</p>
+							<div class="price">
+								<p>170₽</p>
+								<h2>94₽</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<div class="product">
+						<div class="productImg">
+							<img src="src/img/showcase/ccheese.png" alt="ccheese">
+							<button>Добавить в корзину</button>
+						</div>
+						<div class="decription">
+							<h2>Творожная плетенка</h2>
+							<p>Сладкий</p>
+							<div class="price">
+								<p>290₽</p>
+								<h2>238₽</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<div class="product">
+						<div class="productImg">
+							<img src="src/img/showcase/pumpkin.png" alt="pumpkin">
+							<button>Добавить в корзину</button>
+						</div>
+						<div class="decription">
+							<h2>Тыквенный кекс</h2>
+							<p>Сладкий</p>
+							<div class="price">
+								<p></p>
+								<h2>140₽</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<div class="product" data-id="01">
+						<div class="productImg">
+							<img class="productImage" src="src/img/showcase/lemon.png" alt="lemon">
+							<button data-cart type="button">Добавить в корзину</button>
+						</div>
+						<div class="decription">
+							<h2 class="itemTitle">Лимонный круассан</h2>
+							<p>Сладкий</p>
+							<div class="price">
+								<p>195₽</p>
+								<h2 class="itemPrice">117₽</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<div class="product">
+						<div class="productImg">
+							<img src="src/img/showcase/chiken.png" alt="chicken">
+							<button>Добавить в корзину</button>
+						</div>
+						<div class="decription">
+							<h2>Куриный пирожок</h2>
+							<p>Сытный</p>
+							<div class="price">
+								<p></p>
+								<h2>130₽</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<div class="product">
+						<div class="productImg">
+							<img src="src/img/showcase/meat.png" alt="meat">
+							<button>Добавить в корзину</button>
+						</div>
+						<div class="decription">
+							<h2>Мясной пирожок</h2>
+							<p>Сытный</p>
+							<div class="price">
+								<p></p>
+								<h2>115₽</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="feedback parallax-window" data-parallax="scroll" data-image-src="src/img/feedback/bg.png">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 offset-xl-2">
+					<div class="reviewSlider">
+					<div class="review">
+						<div class="profilePic">
+							<img src="src/img/feedback/1.png" alt="pic1">
+						</div>
+						<div class="reviewText">
+							<p>“Всегда приятно видеть новых поситителей. Каждый раз радуюсь, наблюдая за довольными и счастиливыми лицами наших клиентов”</p>
+						</div>
+						<div class="reviewLine"></div>
+						<div class="reviewName">
+							<h1>Юлия</h1>
+							<p>- Менеджер</p>
+						</div>
+					</div>
+					<div class="review">
+						<div class="profilePic">
+							<img src="src/img/feedback/2.png" alt="pic1">
+						</div>
+						<div class="reviewText">
+							<p>“Всегда приятно видеть новых поситителей. Каждый раз радуюсь, наблюдая за довольными и счастиливыми лицами наших клиентов”</p>
+						</div>
+						<div class="reviewLine"></div>
+						<div class="reviewName">
+							<h1>Александр</h1>
+							<p>- Повар</p>
+						</div>
+					</div>
+					<div class="review">
+						<div class="profilePic">
+							<img src="src/img/feedback/3.png" alt="pic1">
+						</div>
+						<div class="reviewText">
+							<p>“Всегда приятно видеть новых поситителей. Каждый раз радуюсь, наблюдая за довольными и счастиливыми лицами наших клиентов”</p>
+						</div>
+						<div class="reviewLine"></div>
+						<div class="reviewName">
+							<h1>Анастасия</h1>
+							<p>- Менеджер</p>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blog">
+		<div class="container">
+			<div class="row">
+				<div class="blogHeader">
+					<h1>Наша история</h1>
+				</div>
+				<div class="ear earBlog">
+					<img src="src/img/showcase/ear.svg" alt="ear">
+				</div>
+				<div class="col-xl-4 offset-xl-0 col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+					<div class="post">
+						<div class="postImg">
+							<img src="src/img/blog/1.png" alt="cake">
+						</div>
+						<div class="postDate">
+							<p>Авг. 20, 2022</p>
+						</div>
+						<div class="postHeader">
+							<a href="#">Создайте собственный торт</a>
+						</div>
+                        <div class="postTag">
+                        	<p>Статья</p>
+                        </div>
+                        <div class="postDescription">
+                        	<p>У каждого бывают моменты, когда хочется сделать особенный подарок себе или близкому человеку. Мы можем предоставить такую возможность, вам всего лишь...</p>
+                        </div>
+                        <div class="postReadMore">
+                        	<a href="#">Читать далее</a>
+                        </div>
+					</div>
+				</div>
+    				<div class="col-xl-4 offset-xl-0 col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+    					<div class="post">
+    						<div class="postImg">
+    							<img src="src/img/blog/2.png" alt="cake">
+    						</div>
+    						<div class="postDate">
+    							<p>Июль 25, 2022</p>
+    						</div>
+    						<div class="postHeader">
+    							<a href="#">Тыквенные кексы</a>
+    						</div>
+                            <div class="postTag">
+                            	<p>Статья</p>
+                            </div>
+                            <div class="postDescription">
+                            	<p>Наша жизнь построена на отрытиях чего-то нового и необычного. Представляем вам жемчужину нашего заведения - неповторимые...</p>
+                            </div>
+                            <div class="postReadMore">
+                            	<a href="#">Читать далее</a>
+                            </div>
+    					</div>
+    				</div>
+    				<div class="col-xl-4 offset-xl-0 col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+    					<div class="post">
+    						<div class="postImg">
+    							<img src="src/img/blog/3.png" alt="cake">
+    						</div>
+    						<div class="postDate">
+    							<p>Июль 05, 2022</p>
+    						</div>
+    						<div class="postHeader">
+    							<a href="#">Проследите за процессом</a>
+    						</div>
+                            <div class="postTag">
+                            	<p>Статья</p>
+                            </div>
+                            <div class="postDescription">
+                            	<p>Наши продукты - это не просто способ утолить голод, а настоящий труд десятков пекарей, технологов и дегустаторов. Приглашаем вас познакомиться...</p>
+                            </div>
+                            <div class="postReadMore">
+                            	<a href="#">Читать далее</a>
+                            </div>
+    					</div>
+    				</div>
+			</div>
+		</div>
+	</section>
+	<section class="order parallax-window" data-parallax="scroll" data-image-src="src/img/order/bg.png">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 offset-xl-2 col-md-12">
+					<div class="orderBox">
+						<div class="row">
+						<div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0">
+							<div class="orderAdress">
+								<h1>м. Беговая</h1>
+								<h2>Савушкина, 126</h2>
+								<a href="#">info@baguettevest.ru</a>
+								<a href="#">+7 911 263-43-26</a>
+							</div>
+							<div class="orderAdress">
+								<h1>м. Крестовский остров</h1>
+								<h2>Кемская, 1</h2>
+								<a href="#">info@baguettevest.ru</a>
+								<a href="#">+7 911 127-95-78</a>
+							</div>
+							<div class="orderAdress">
+								<h1>м. Сенная площадь</h1>
+								<h2>Типанова, 21</h2>
+								<a href="#">info@baguettevest.ru</a>
+								<a href="#">+7 911 243-65-97</a>
+							</div>
+							</div>
+							<div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0">
+								<div class="orderForm">
+									<div class="orderFormHeader">
+										<h1>Закажите прямо сейчас</h1>
+									</div>
+									<div class="orderFormUnderHeader">
+									    <p>Оставьте заявку, и наш менеджер перезвонит вам в течение пяти минут с уточнением деталей заказа</p>
+									</div>
+									<form action="#">
+										<label class="labelForm" for="#">Имя*</label>
+										<input class="inputForm nameInput" type="text">
+										<label class="labelForm" for="#">Email*</label>
+										<input class="inputForm mailInput" type="text">
+										<label class="labelForm" for="#">Номер телефона*</label>
+										<input class="inputForm phoneInput maska" type="tel">
+										<label class="labelForm" for="#">Особые пожелания</label>
+										<input class="inputForm wishInput" type="text">
+										<button class="buttonForm" type="submit">Отправить</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-2 offset-xl-1 col-lg-12 offset-lg-0">
+					<div class="footerLogo">
+						<img src="src/img/footer/logo.png" alt="logo">
+					</div>
+				</div>
+				<div class="col-xl-4 offset-xl-1 col-lg-6 offset-lg-0">
+					<div class="footerForm">
+						<form action="#">
+							<label class="labelFooter" for="#">Получать новости первым</label>
+							<input class="inputFooter" type="text" placeholder="Ваш email адрес">
+							<button class="buttonFooter" type="submit">Подписаться</button>
+						</form>
+						<p>Мы не будем слать надоедливую рекламу*</p>
+					</div>
+				</div>
+				<div class="col-xl-2 offset-xl-1 col-lg-6 offset-lg-0">
+					<div class="footerHours">
+						<h1>Часы работы</h1>
+						<p>Понедельник - Пятница:</p>
+						<p>08:00 - 22:00</p>
+						<p>Суббота - Воскресенье:</p>
+						<p>9:00 - 22:30</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+
+
+	<!-- Подключение слайдеров -->
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="src/slick/slick.js"></script>
+
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	    $('.itemSlider').slick({
+	      prevArrow: '<button type="button" class="ItemSliderBtn prevBtn"><img class="imgPrevBtn" src="src/img/home/prevBtn.svg"></button>',
+	      nextArrow: '<button type="button" class="ItemSliderBtn nextBtn"><img class="imgNextBtn" src="src/img/home/nextBtn.svg"></button>',
+	      fade: true,
+	      autoplay: true,
+	      autoplaySpeed: 5000,
+	    });
+	  });
+	</script>
+
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	    $('.reviewSlider').slick({
+	      fade: true,
+	      arrows: false,
+	      //autoplay: true,
+	      autoplaySpeed: 5000,
+	      dots: true,
+	    });
+	  });
+	</script>
+
+	<!-- Маска номера -->
+	<script src="src/js/maska.js" type="text/javascript"></script>
+	<script>
+	$('.maska').mask('+7 (999) 999-99-99');
+
+	$.fn.setCursorPosition = function(pos) {
+	  if ($(this).get(0).setSelectionRange) {
+	    $(this).get(0).setSelectionRange(pos, pos);
+	  } else if ($(this).get(0).createTextRange) {
+	    var range = $(this).get(0).createTextRange();
+	    range.collapse(true);
+	    range.moveEnd('character', pos);
+	    range.moveStart('character', pos);
+	    range.select();
+	  }
+	};
+
+
+	$('input[type="tel"]').click(function(){
+	    $(this).setCursorPosition(4);  // set position number
+	  });
+	</script>
+
+</body>
+</html>
